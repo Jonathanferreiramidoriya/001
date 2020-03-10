@@ -1,0 +1,70 @@
+exercicio 1
+
+classe 1
+package exercicios;
+
+public class quadrado {
+ double area;
+ double base;
+ double altura;
+ 
+ void calcularvalor(double valor){
+	 
+	 area = base * altura;
+ }
+ 
+}
+
+
+
+
+
+classe 2
+
+
+package exercicios;
+
+public class q2 {
+
+	public static void main(String []args){	
+		quadrado quadrado1 = new quadrado();
+			quadrado1.base = 3;
+			quadrado1.altura=5;
+			System.out.println(quadrado1.area);
+			
+			
+			quadrado quadrado2 = new quadrado();
+			quadrado2.altura = 1500;
+			System.out.println(quadrado2.area);
+		}
+		
+		
+		}
+		
+    exercicio2
+
+classe1
+
+principal
+
+
+package exercicio2;
+
+public class salarios {
+ String nome;
+ double salariobruto;
+ double imposto;
+double salarioliquido; 
+double aumentosalario;
+ 
+  double calcularvalor(){
+	 
+	 salarioliquido = salariobruto - imposto;
+	 return salarioliquido;
+ }
+ double aumentosalario(double valor){
+	 
+	return (aumentosalario = salarioliquido+valor);
+	
+ }
+}
